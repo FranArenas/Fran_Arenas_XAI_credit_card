@@ -20,6 +20,7 @@ Algunos de los datos del ciente son : género, vehículo propio, número de hijo
 
 ![](images/clientspng.png)
 
+![](images/jobs.png)
 
 ![](images/Male_Female.png)
 
