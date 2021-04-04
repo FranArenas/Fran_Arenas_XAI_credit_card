@@ -18,7 +18,12 @@ Para predecir los clientes potencialmente peligrosos se han fusionado los dos da
 
 Algunos de los datos del ciente son : género, vehículo propio, número de hijos, educación, estatus familiar, tipo de domicilio, tipo de trabajo, etc.
 
+![](images/clients.png)
+
+
 ![](images/Male_Female.png)
+
+
 
 
 ## Modelo
