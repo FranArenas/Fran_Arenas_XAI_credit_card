@@ -24,6 +24,8 @@ Algunos de los datos del ciente son : género, vehículo propio, número de hijo
 
 ![](images/Male_Female.png)
 
+![](images/education.png)
+
 
 
 
