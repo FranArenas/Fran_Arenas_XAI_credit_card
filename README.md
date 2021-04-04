@@ -40,5 +40,5 @@ Se ha decidido utilizar el modelo XGBoost. Debido al desbalanceamiento del datas
 
 Lorem Ipsum Dolor Sit Amet
 
-![](images/importance.png)
+![](images/Importance.png)
 
