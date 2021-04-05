@@ -77,130 +77,21 @@ En el gráfico anterior se puede observar rápidamente las variables con un mayo
 ### Valores de Shapley y detección de sesgos
 Mediante una función propia del notebook asociado a este repositorio se ha mostrado el impacto de cada valor posible de cada "feature" de nuestro dataset.
 
-Feature: CODE_GENDER	 value: 1	 Impact: -0.14596430979669409
+A continuación se muestran algunos ejemplos así como conclusiones extraidas del análisis.
 
-Feature: CODE_GENDER	 value: 0	 Impact: -0.23019137926356806
----
+Feature: CODE_GENDER	 value: Men	 Impact: -0.14596430979669409
+Feature: CODE_GENDER	 value: Women	 Impact: -0.23019137926356806
 
-Feature: FLAG_OWN_CAR	 value: 1	 Impact: -0.1749546868327881
+Según los valores mostrados el modelo tiende a asignar un riesgo mayor a los clientes masculinos.
 
-Feature: FLAG_OWN_CAR	 value: 0	 Impact: -0.06634596839147225
+Feature: NAME_EDUCATION_TYPE	 value: Secondary / secondary special	 Impact: -0.17723326800877512
+Feature: NAME_EDUCATION_TYPE	 value: Higher education	 Impact: -0.15397021899685898
+Feature: NAME_EDUCATION_TYPE	 value: Incomplete higher	 Impact: -0.1648118817354135
+Feature: NAME_EDUCATION_TYPE	 value: Lower secondary	 Impact: -0.19202636333834877
+Feature: NAME_EDUCATION_TYPE	 value: Academic degree	 Impact: 0.31512815185955595
 
+Los valores anteriores nos muestran que las personas con un grado académico tienen una posibilidad bastante más elevada de ser catalogados como clientes de alto riesgo. Este sesgo en nuestro modelo se deba probablemente a que el número de clientes con un grado acádemico es muy bajo (14) en comparación con el tamaño de nuestros datos (+25000) por lo que se ve claramente que hemos detectado un sesgo creado por la distribución de datos dispar en nuestro modelo.
 
-Feature: FLAG_OWN_REALTY	 value: 1	 Impact: -0.29088786100174524
 
-Feature: FLAG_OWN_REALTY	 value: 0	 Impact: -0.17027427767716796
-
-
-Feature: CNT_CHILDREN	 value: 0	 Impact: -0.025556012098349824
-
-Feature: CNT_CHILDREN	 value: 3	 Impact: -0.024545736931777824
-
-Feature: CNT_CHILDREN	 value: 1	 Impact: -0.13874566251813417
-
-Feature: CNT_CHILDREN	 value: 2	 Impact: -0.1214861305387653
-
-Feature: CNT_CHILDREN	 value: 4	 Impact: -0.10611623264195626
-
-Feature: CNT_CHILDREN	 value: 14	 Impact: -0.1476748287677765
-
-Feature: CNT_CHILDREN	 value: 5	 Impact: -0.22494369993607202
-
-Feature: CNT_CHILDREN	 value: 19	 Impact: 0.13113021850585938
-
-Feature: CNT_CHILDREN	 value: 7	 Impact: 0.30773746967315674
-
-
-Feature: NAME_EDUCATION_TYPE	 value: 0	 Impact: -0.17723326800877512
-
-Feature: NAME_EDUCATION_TYPE	 value: 1	 Impact: -0.15397021899685898
-
-Feature: NAME_EDUCATION_TYPE	 value: 2	 Impact: -0.1648118817354135
-
-Feature: NAME_EDUCATION_TYPE	 value: 3	 Impact: -0.19202636333834877
-
-Feature: NAME_EDUCATION_TYPE	 value: 4	 Impact: 0.31512815185955595
-
-
-Feature: NAME_FAMILY_STATUS	 value: 0	 Impact: -0.15527148092126972
-
-Feature: NAME_FAMILY_STATUS	 value: 1	 Impact: -0.15773843879276192
-
-Feature: NAME_FAMILY_STATUS	 value: 2	 Impact: -0.15378473917613103
-
-Feature: NAME_FAMILY_STATUS	 value: 3	 Impact: -0.15636435477991525
-
-Feature: NAME_FAMILY_STATUS	 value: 4	 Impact: -0.16758495444665986
-
-
-
-Feature: NAME_HOUSING_TYPE	 value: 0	 Impact: -0.11141496778693058
-
-Feature: NAME_HOUSING_TYPE	 value: 1	 Impact: -0.07254216297060795
-
-Feature: NAME_HOUSING_TYPE	 value: 2	 Impact: -0.09393835136516679
-
-Feature: NAME_HOUSING_TYPE	 value: 3	 Impact: -0.11447659513458831
-
-Feature: NAME_HOUSING_TYPE	 value: 4	 Impact: -0.19556258770784266
-
-Feature: NAME_HOUSING_TYPE	 value: 5	 Impact: -0.11665457103345263
-
-
-
-Feature: OCCUPATION_TYPE	 value: 0	 Impact: -0.03349234885133007
-
-Feature: OCCUPATION_TYPE	 value: 1	 Impact: -0.05179758163093052
-
-Feature: OCCUPATION_TYPE	 value: 2	 Impact: -0.06476086363801245
-
-Feature: OCCUPATION_TYPE	 value: 3	 Impact: -0.04191095964220474
-
-Feature: OCCUPATION_TYPE	 value: 4	 Impact: -0.04662614272729236
-
-Feature: OCCUPATION_TYPE	 value: 5	 Impact: -0.0423098126836876
-
-Feature: OCCUPATION_TYPE	 value: 6	 Impact: -0.04515066756433435
-
-Feature: OCCUPATION_TYPE	 value: 7	 Impact: -0.04451314151542637
-
-Feature: OCCUPATION_TYPE	 value: 8	 Impact: -0.05025064239313086
-
-Feature: OCCUPATION_TYPE	 value: 9	 Impact: -0.08514854659767669
-
-Feature: OCCUPATION_TYPE	 value: 10	 Impact: -0.05862337914337706
-
-Feature: OCCUPATION_TYPE	 value: 11	 Impact: -0.006659073430512632
-
-Feature: OCCUPATION_TYPE	 value: 12	 Impact: -0.0564259551007976
-
-Feature: OCCUPATION_TYPE	 value: 13	 Impact: -0.0586501101204595
-
-Feature: OCCUPATION_TYPE	 value: 14	 Impact: -0.015111457010538414
-
-Feature: OCCUPATION_TYPE	 value: 15	 Impact: -0.0713506354840801
-
-Feature: OCCUPATION_TYPE	 value: 16	 Impact: -0.07102132768995023
-
-Feature: OCCUPATION_TYPE	 value: 17	 Impact: -0.082166072834904
-
-
-Feature: YEARS_BIRTH	 value: 58	 Impact: -0.015574779790402308
-
-Feature: YEARS_BIRTH	 value: 52	 Impact: -0.02285164684348761
-
-Feature: YEARS_BIRTH	 value: 46	 Impact: -0.012326259708608085
-
-Feature: YEARS_BIRTH	 value: 48	 Impact: -0.02894945775971066
-
-Feature: YEARS_BIRTH	 value: 29	 Impact: -0.028600397832459133
-
-Feature: YEARS_BIRTH	 value: 27	 Impact: -0.03445303100870883
-
-Feature: YEARS_BIRTH	 value: 34	 Impact: -0.030068792898197298
-
-Feature: YEARS_BIRTH	 value: 32	 Impact: -0.024724324926545638
-
-Feature: YEARS_BIRTH	 value: 56	 Impact: -0.018883141433304575
 
 ### Gráficas de interacción de impacto entre variables 
