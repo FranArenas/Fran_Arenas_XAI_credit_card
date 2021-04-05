@@ -80,18 +80,26 @@ Mediante una función propia del notebook asociado a este repositorio se ha most
 A continuación se muestran algunos ejemplos así como conclusiones extraidas del análisis.
 
 Feature: CODE_GENDER	 value: Men	 Impact: -0.14596430979669409
+
 Feature: CODE_GENDER	 value: Women	 Impact: -0.23019137926356806
 
 Según los valores mostrados el modelo tiende a asignar un riesgo mayor a los clientes masculinos.
 
 Feature: NAME_EDUCATION_TYPE	 value: Secondary / secondary special	 Impact: -0.17723326800877512
+
 Feature: NAME_EDUCATION_TYPE	 value: Higher education	 Impact: -0.15397021899685898
+
 Feature: NAME_EDUCATION_TYPE	 value: Incomplete higher	 Impact: -0.1648118817354135
+
 Feature: NAME_EDUCATION_TYPE	 value: Lower secondary	 Impact: -0.19202636333834877
+
 Feature: NAME_EDUCATION_TYPE	 value: Academic degree	 Impact: 0.31512815185955595
+
 
 Los valores anteriores nos muestran que las personas con un grado académico tienen una posibilidad bastante más elevada de ser catalogados como clientes de alto riesgo. Este sesgo en nuestro modelo se deba probablemente a que el número de clientes con un grado acádemico es muy bajo (14) en comparación con el tamaño de nuestros datos (+25000) por lo que se ve claramente que hemos detectado un sesgo creado por la distribución de datos dispar en nuestro modelo.
 
 
 
 ### Gráficas de interacción de impacto entre variables 
+
+
