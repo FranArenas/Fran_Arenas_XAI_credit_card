@@ -79,7 +79,7 @@ Mediante una función propia del notebook asociado a este repositorio se ha most
 
 Feature: CODE_GENDER	 value: 1	 Impact: -0.14596430979669409
 Feature: CODE_GENDER	 value: 0	 Impact: -0.23019137926356806
-
+---
 
 Feature: FLAG_OWN_CAR	 value: 1	 Impact: -0.1749546868327881
 Feature: FLAG_OWN_CAR	 value: 0	 Impact: -0.06634596839147225
