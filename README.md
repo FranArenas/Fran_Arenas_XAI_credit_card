@@ -1,16 +1,16 @@
 # Fran_Arenas_XAI_credit_card
 
-En este repositorio se busca aplicar herramientas de XAI (Explainable AI) sobre un modelo de predicción de crédito para probar la validez de dichas técnicas.
+En este repositorio se busca aplicar herramientas de XAI (Explainable AI) principalmente utilizando SHAP. Para ello se aplicarán diversas funcionalidades de la librería sobre un modelo XGBoost encargado de predecir clientes potenciales a la hora de asignar un crédito.
 
 
-Para ello se utilizará el dataset encontrado en: https://www.kaggle.com/rikdifos/credit-card-approval-prediction?select=application_record.csv
+Dataset utilizado: https://www.kaggle.com/rikdifos/credit-card-approval-prediction?select=application_record.csv
 
+SHAP: https://shap.readthedocs.io/en/latest/index.html
 
-La principal herramienta para aplicar la explicabilidad de nuestro modelo se trata de la librería SHAP basada principalmente en el Shapley value utilizado en teoría de juegos: https://shap.readthedocs.io/en/latest/index.html
 
 ## Dataset
 
-Dispones de dos datasets. En el primero se registran los datos del cliente para una solicitud y en el siguiente se registra el siguimiento de la deuda del cliente.
+Existen dos datasets. En el primero se registran los datos del cliente para una solicitud y en el siguiente se registra el siguimiento de la deuda del cliente.
 
 
 Para predecir los clientes potencialmente peligrosos se han fusionado los dos dataset para añadir a los datos del cliente la variable de cliente fraudulento que será utilizada como variable objetivo.
