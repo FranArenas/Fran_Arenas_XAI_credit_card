@@ -100,19 +100,18 @@ Los valores anteriores nos muestran que las personas con un grado académico tie
 
 
 
-### Gráficas de interacción de impacto entre variables 
+### Interacción de impacto entre variables 
 
-A continuación podemos observar una selección de gráficas extraidas mediante la librerái SHAP:
-
-![](images/coche.png)
+Otra posibilidad es mostrar una gráfica multivariable (utilizando el color para representar una de las variables) mostrando el impacto en el eje Y.
+A continuación podemos observar un ejemplo:
 
 ![](images/years.png)
 
-![](images/gender_family.png)
+Con esa gráfica podemos observar que las personas más jóvenes tienen más probabilidad de ser clientes de alto riesgo.
 
-![](images/hijos_genero.png)
+En la carpeta imágenes hay más gráficas disponibles
 
-![](images/genero.png)
+
 
 ### Conclusiones
 
