@@ -102,7 +102,7 @@ Los valores anteriores nos muestran que las personas con un grado académico tie
 
 ### Gráficas de interacción de impacto entre variables 
 
-![](images/impact(2).png)
+A continuación podemos observar una selección de gráficas extraidas mediante la librerái SHAP:
 
 ![](images/coche.png)
 
@@ -113,3 +113,18 @@ Los valores anteriores nos muestran que las personas con un grado académico tie
 ![](images/hijos_genero.png)
 
 ![](images/genero.png)
+
+### Conclusiones
+
+Como podemos observar en el repositorio, la utilización de los valores de Shapley mediante la librería SHAP nos aporta una herramienta de explicabilidad bastante potente a la hora de analizar nuestros modelos y detectar sesgos de estos.
+
+Pros:
+- Gran ayuda a la hora de analizar las decisiones del modelo así como para detectar posibles sesgos
+- Gráficas interactivas en HTML
+
+Contras:
+- Realizar este análisis es computacionalmente costoso en datasets grandes debido al cómputo de los Shapley Values.
+- Es necesario tener un conocimiento técnico mínimo (sobretodo en Shapley Values) para poder interpretar los valores y trabajar con las herramientas proporcionadas
+- Algunas funciones de la librería SHAP no están implementadas todavía (como por ejemplo implementar matplotlib con gráficas multivariable)
+- Para una interpretación correcta de los datos es recomendable no utilizar "One Hot encoding" ni escalar los datos. Además, en valores discretos las gráficas pueden mostrar visualizaciones poco efectivas por lo que el rendimiento óptimo de estas se obtiene solo con variables continuas.
+- Documentación mejorable
