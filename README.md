@@ -102,4 +102,14 @@ Los valores anteriores nos muestran que las personas con un grado académico tie
 
 ### Gráficas de interacción de impacto entre variables 
 
+![](images/impact(2).png)
 
+![](images/coche.png)
+
+![](images/years.png)
+
+![](images/gender_family.png)
+
+![](images/hijos_genero.png)
+
+![](images/genero.png)
