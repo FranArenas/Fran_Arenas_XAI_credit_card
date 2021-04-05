@@ -6,6 +6,6 @@ https://www.youtube.com/watch?v=Tg8aPwPPJ9c
 
 
 
-Documentación oficial de la librería SHAP:
+Documentación SHAP:
 
 https://shap.readthedocs.io/en/latest/index.html
