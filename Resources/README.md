@@ -1,4 +1,4 @@
-Videos básicos sobre Shapley value:
+Shapley value:
 
 https://www.youtube.com/watch?v=w9O0fkfMkx0
 
