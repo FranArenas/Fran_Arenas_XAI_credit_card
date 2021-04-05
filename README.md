@@ -57,13 +57,13 @@ Es útil principalmente para variables con valores continuos, pero debido a los 
 Algunas capturas de pantalla interesantes sobre la gráfica:
 
 
-CAPTURA 1
+![](images/Captura1_genero_hijos.png)
 
 
 Aquí podemos ver como la variable hijos tiene un impacto superior en mujeres que en hombres (esto se debe probablemente a que las mujeres con 0 hijos tengan un impacto fuerte sobre la decisión, por lo que la relación entre ambas variables se incrementa)
 
 
-CAPTURA 2
+![](images/Captura2.png)
 
 En el gráfico anterior se puede observar como a la edad de 54 años se observa un pico en el impacto con la variable años trabajados. Al ser tan acentuado en los 54 años en comparación con otros años cercanos nos indica que probablemente sea un sesgo del modelo.
 
