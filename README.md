@@ -37,8 +37,12 @@ Se ha decidido utilizar el modelo XGBoost. Debido al desbalanceamiento del datas
 
 ## Explicabilidad del modelo
 
+En este notebook utilizo principalmente la librería shap
 
-Lorem Ipsum Dolor Sit Amet
-
+### Explicabilidad en un individuo
+ Para ello se puede ver el impacto de cada variable (según los Shapley Values) en la toma de decisión de nuestro modelo. En este caso observamos una muestra de un usuario que ha sido clasificado como cliente de alto riesgo. Se pueden graficar tantas variables como las disponibles del cliente, pero para una visualización más cómoda de los datos solo se han graficado las más relevantes.
+ 
 ![](images/Importance.png)
+
+
 
