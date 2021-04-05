@@ -70,7 +70,7 @@ En el gráfico anterior se puede observar como a la edad de 54 años se observa 
 
 ### Variables con más impacto en el modelo
 
-![](impact.png)
+![](images/impact.png)
 
 En el gráfico anterior se puede observar rápidamente las variables con un mayor impacto en el modelo, aunque se puede hacer un estudio más exaustivo de los valores de Shapley expuesto en la siguiente sección.
 
