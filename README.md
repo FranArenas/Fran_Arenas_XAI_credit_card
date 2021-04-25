@@ -20,24 +20,43 @@ Algunos de los datos del ciente son : género, vehículo propio, número de hijo
 
 ### Rango de valores
 Feature: index	 valores: 2 to 36456
+
 Feature: CODE_GENDER	 valores: ['M' 'F']
+
 Feature: FLAG_OWN_CAR	 valores: ['Y' 'N']
+
 Feature: FLAG_OWN_REALTY	 valores: ['Y' 'N']
+
 Feature: CNT_CHILDREN	 valores: 0 to 19
+
 Feature: AMT_INCOME_TOTAL	 valores: 27000.0 to 1575000.0
+
 Feature: NAME_INCOME_TYPE	 valores: ['Working' 'Commercial associate' 'State servant' 'Student' 'Pensioner']
+
 Feature: NAME_EDUCATION_TYPE	 valores: ['Secondary / secondary special' 'Higher education' 'Incomplete higher','Lower secondary' 'Academic degree']
+
 Feature: NAME_FAMILY_STATUS	 valores: ['Married' 'Single / not married' 'Civil marriage' 'Separated' 'Widow']
+
 Feature: NAME_HOUSING_TYPE	 valores: ['House / apartment' 'Rented apartment' 'Municipal apartment' 'With parents' 'Co-op apartment' 'Office apartment']
+
 Feature: FLAG_MOBIL	 valores: 1 to 1
+
 Feature: FLAG_WORK_PHONE	 valores: 0 to 1
+
 Feature: FLAG_PHONE	 valores: 0 to 1
+
 Feature: FLAG_EMAIL	 valores: 0 to 1
+
 Feature: OCCUPATION_TYPE	 valores: ['Security staff' 'Sales staff' 'Accountants' 'Laborers' 'Managers' 'Drivers' 'Core staff' 'High skill tech staff' 'Cleaning staff' 'Private service staff' 'Cooking staff' 'Low-skill Laborers' 'Medicine staff' 'Secretaries' 'Waiters/barmen staff' 'HR staff' 'Realty agents' 'IT staff']
+
 Feature: CNT_FAM_MEMBERS	 valores: 1.0 to 20.0
+
 Feature: bad_client	 valores: 0 to 1
+
 Feature: YEARS_BIRTH	 valores: 20 to 67
+
 Feature: YEARS_EMPLOYED	 valores: 0 to 43
+
 
 ### Gráficas
 
