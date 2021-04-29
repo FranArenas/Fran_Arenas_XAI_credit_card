@@ -154,6 +154,14 @@ Con esa gráfica podemos observar que las personas más jóvenes tienen más pro
 En la carpeta imágenes hay más gráficas disponibles
 
 
+## Otros modelos
+
+En el código adjunto se pueden observar otros dos modelos: Decision Tree y Multilayer Perceptron.
+
+La librería SHAP está optimizada actualmente para modelos basados en árboles, por este motivo el modelo MLP ha tenido que calcular sus Shapley Values sobre una submuestra.
+
+Al ser una técnica Post Hoc es aplicable a cualquier modelo, incluso podemos crear uno totalmente personalizado y pasar como argumento para calcular los Shapley values una función encargada de hacer las predicciones.
+
 
 ### Conclusiones
 
