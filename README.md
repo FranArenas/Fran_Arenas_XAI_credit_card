@@ -7,6 +7,14 @@ Dataset utilizado: https://www.kaggle.com/rikdifos/credit-card-approval-predicti
 
 SHAP: https://shap.readthedocs.io/en/latest/index.html
 
+## Configuración del notebook y datos de telegram
+
+El notebook cuenta con una primera celda en la cual se pueden seleccionar los modelos a ejecutar así como la forma de descarga de los resultados (telegram o descarga local)
+
+En caso de seleccionar telegram, se enviará un mensaje con los csv correspondientes al grupo cuya id sea la asignada a la variable id_telegram. Para el envío de csv se usa el bot @Arenaspython disponible públicamente.
+
+Enlace a grupo público para la descarga de resultados en telegram: https://t.me/joinchat/EdijlVvAWLUxMGQ0 id = 507673519
+
 
 ## Dataset
 
